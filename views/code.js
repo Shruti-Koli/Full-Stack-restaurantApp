@@ -18,16 +18,16 @@
         if(obj.table==1){
             let list = document.getElementById("table1");
             list.innerHTML= list.innerHTML + 
-                `<li id=${obj.id}> Dish: ${obj.dish} ----- Price: ${obj.price} Rs  --- <button onclick="deleteFun('${obj.id}')">Delete</button></li>`;
+                `<li id=${obj.id}> Dish: ${obj.dish} ----- Price: ${obj.price} Rs<button onclick="deleteFun('${obj.id}')">Delete</button></li>`;
         }else if(obj.table==2){
             let list = document.getElementById("table2");
             list.innerHTML= list.innerHTML + 
-                `<li id=${obj.id}> Dish: ${obj.dish} ----- Price: ${obj.price} Rs  --- <button onclick="deleteFun('${obj.id}')">Delete</button></li>`;
+                `<li id=${obj.id}> Dish: ${obj.dish} ----- Price: ${obj.price} Rs<button onclick="deleteFun('${obj.id}')">Delete</button></li>`;
         }
         else{
             let list = document.getElementById("table3");
             list.innerHTML= list.innerHTML + 
-                `<li id=${obj.id}> Dish: ${obj.dish} ----- Price: ${obj.price} Rs  --- <button onclick="deleteFun('${obj.id}')">Delete</button></li>`;
+                `<li id=${obj.id}> Dish: ${obj.dish} ----- Price: ${obj.price} Rs<button onclick="deleteFun('${obj.id}')">Delete</button></li>`;
         }
     }
 

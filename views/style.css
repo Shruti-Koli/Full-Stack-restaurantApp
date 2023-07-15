@@ -1,19 +1,38 @@
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1px;
+}
 
 ul {
-    border: 1px solid rgb(169, 167, 167);
+    border: 1px solid rgb(169, 167, 167); 
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
 }
 
 body{
-    margin: 30px;
+    margin: 10px 30px;
 }
 
 form{
+    width: 80%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#form-div{
+    display: flex;
+    margin-left: 10%;
+}
+
+h2{
     margin-bottom: 30px;
 }
-h1{
-    margin-bottom: 30px;
-}
-h3{
+h4{
     margin-bottom: 20px;
 }
 select{
@@ -23,4 +42,9 @@ select{
 button{
     margin-left: 20px;
     cursor: pointer;
+}
+
+#tables{
+    display: flex;
+    justify-content: space-around;
 }
